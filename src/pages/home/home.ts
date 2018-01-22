@@ -21,8 +21,7 @@ export class HomePage {
 		const target = "_blank";
 		const options: InAppBrowserOptions = {
 			location: "no",
-			toolbar: "no",
-			toolbarposition: "bottom"
+			toolbar: "no"
 		}
 		const browser = this.inAppBrowser.create(url, target, options);
 		if (this.platform.is("cordova")) {
