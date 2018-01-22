@@ -3,7 +3,7 @@
     <name>ionic-inappbrowser-demo</name>
     <description>Demo for Ionic app using InAppBrowser</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.178.45:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -69,5 +69,6 @@
     <plugin name="cordova-plugin-inappbrowser" spec="^2.0.1" />
     <allow-navigation href="http://192.168.178.45:8100" />
     <plugin name="cordova-custom-config" spec="^5.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.1" />
     <engine name="ios" spec="4.5.4" />
 </widget>

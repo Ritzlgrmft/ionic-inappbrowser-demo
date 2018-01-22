@@ -21,3 +21,10 @@ with
 ```objective-c
 [bgToolbar setAutoresizingMask:UIViewAutoresizingNone];
 ```
+
+## Build
+
+```bash
+npm install
+ionic cordova emulate ios --target iPad-Air-2
+```
