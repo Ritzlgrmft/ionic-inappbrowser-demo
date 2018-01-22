@@ -22,6 +22,13 @@ with
 [bgToolbar setAutoresizingMask:UIViewAutoresizingNone];
 ```
 
+There is a hook you can use to use the workaround. Just add the following lines to `config.xml`:
+
+```xml
+<hook src="hooks/patch_toolbar_autoreszing.js" type="after_platform_add" />
+<hook src="hooks/patch_toolbar_autoreszing.js" type="after_prepare" />
+```
+
 ## Build
 
 ```bash
